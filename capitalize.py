@@ -8,7 +8,12 @@ import sys
 
 
 def solve(s):
-    return s.title()
+    rng = s.split(' ')
+    res = ''
+    for i in rng:
+        i = i.capitalize()
+        res = res + i + ' '
+    return res
 
 
 if __name__ == '__main__':
