@@ -2,9 +2,6 @@ def saveThePrisoner(n, m, s):
     return (s - 1 + m) % n if (s - 1 + m) % n else n
 
 
-
-
-
 if __name__ == '__main__':
     t = int(input().strip())
 
