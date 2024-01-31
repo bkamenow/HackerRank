@@ -21,6 +21,7 @@ def maxPairs(skillLevel, minDiff):
 
     return pairs
 
+
 if __name__ == '__main__':
     skillLevel_count = int(input().strip())
 

@@ -10,8 +10,9 @@ def climbingLeaderboard(ranked, player):
         player_leaderboard.append(position)
     return player_leaderboard
 
-
 if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
     ranked_count = int(input().strip())
 
     ranked = list(map(int, input().rstrip().split()))
