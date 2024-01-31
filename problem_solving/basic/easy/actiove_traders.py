@@ -17,9 +17,7 @@ def mostActive(customers):
     return sorted_active_traders
 
 
-
 if __name__ == '__main__':
-
 
     customers_count = int(input().strip())
 
