@@ -1,5 +1,5 @@
 def bigSorting(unsorted):
-    return sorted(unsorted, key=int)
+    return sorted(unsorted,key=lambda x: (len(x),x))
 
 
 if __name__ == '__main__':
